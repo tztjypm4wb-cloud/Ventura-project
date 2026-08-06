@@ -262,7 +262,7 @@ jobs:
           folder: 'dist'
           timestamp-server: 'http://timestamp.digicert.com'
           recursive: true
-          description: 'VenturaVPN'
+          description: 'Hiddify'
 
       - name: Copy to out Windows
         if: matrix.platform == 'windows'
@@ -314,7 +314,7 @@ jobs:
         run: |
           mkdir out
           ls -R ./build/app/outputs
-          cp ./build/app/outputs/bundle/release/app-release.aab out/VenturaVPN-android-market.aab || echo "no aab"
+          cp ./build/app/outputs/bundle/release/app-release.aab out/Hiddify-android-market.aab || echo "no aab"
 
       - name: Copy to out unix
         if: startsWith(matrix.platform,'linux') || matrix.platform == 'macos' || matrix.platform == 'ios'
