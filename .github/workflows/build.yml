@@ -206,10 +206,10 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}-v2
           restore-keys: |
             gradle-${{ runner.os }}-
-                  
+                      
       - name: Setup dependencies
         run: |
           make ${{ matrix.platform }}-install-deps  
