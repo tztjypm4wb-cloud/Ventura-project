@@ -1,9 +1,9 @@
 import 'package:fpdart/fpdart.dart';
-import 'package:venturavpn/core/utils/exception_handler.dart';
-import 'package:venturavpn/features/stats/model/stats_failure.dart';
-import 'package:venturavpn/hiddifycore/generated/v2/hcore/hcore.pb.dart';
-import 'package:venturavpn/hiddifycore/hiddify_core_service.dart';
-import 'package:venturavpn/utils/custom_loggers.dart';
+import 'package:hiddify/core/utils/exception_handler.dart';
+import 'package:hiddify/features/stats/model/stats_failure.dart';
+import 'package:hiddify/hiddifycore/generated/v2/hcore/hcore.pb.dart';
+import 'package:hiddify/hiddifycore/hiddify_core_service.dart';
+import 'package:hiddify/utils/custom_loggers.dart';
 
 abstract interface class StatsRepository {
   Stream<Either<StatsFailure, SystemInfo>> watchStats();

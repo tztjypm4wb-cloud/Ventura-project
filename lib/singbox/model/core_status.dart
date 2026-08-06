@@ -1,7 +1,7 @@
 import 'package:dartx/dartx.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:venturavpn/features/connection/model/connection_failure.dart';
-import 'package:venturavpn/core/generated/v2/hcore/hcore.pb.dart';
+import 'package:hiddify/features/connection/model/connection_failure.dart';
+import 'package:hiddify/core/generated/v2/hcore/hcore.pb.dart';
 
 part 'core_status.freezed.dart';
 

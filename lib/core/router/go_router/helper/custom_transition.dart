@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
-import 'package:venturavpn/utils/utils.dart';
+import 'package:hiddify/utils/utils.dart';
 
 enum TransitionType { slide, fade }
 

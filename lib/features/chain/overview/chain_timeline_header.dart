@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:venturavpn/core/localization/translations.dart';
-import 'package:venturavpn/core/model/constants.dart';
-import 'package:venturavpn/features/chain/model/chain_enum.dart';
-import 'package:venturavpn/features/chain/overview/chain_mode_button.dart';
-import 'package:venturavpn/features/settings/data/config_option_repository.dart';
+import 'package:hiddify/core/localization/translations.dart';
+import 'package:hiddify/core/model/constants.dart';
+import 'package:hiddify/features/chain/model/chain_enum.dart';
+import 'package:hiddify/features/chain/overview/chain_mode_button.dart';
+import 'package:hiddify/features/settings/data/config_option_repository.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class ChainTimelineHeader extends HookConsumerWidget {

@@ -1,8 +1,8 @@
 import 'package:drift/drift.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:venturavpn/core/db/db.dart';
-import 'package:venturavpn/features/profile/model/profile_sort_enum.dart';
-import 'package:venturavpn/utils/utils.dart';
+import 'package:hiddify/core/db/db.dart';
+import 'package:hiddify/features/profile/model/profile_sort_enum.dart';
+import 'package:hiddify/utils/utils.dart';
 import 'package:loggy/loggy.dart';
 
 part 'profile_data_source.g.dart';

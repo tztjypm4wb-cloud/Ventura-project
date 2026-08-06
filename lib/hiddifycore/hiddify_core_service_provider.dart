@@ -1,7 +1,7 @@
-import 'package:venturavpn/hiddifycore/directories/directories_provider.dart';
-import 'package:venturavpn/hiddifycore/notification/in_app_notification_controller.dart';
-import 'package:venturavpn/hiddifycore/preferences/general_preferences.dart';
-import 'package:venturavpn/hiddifycore/hiddify_core_service.dart';
+import 'package:hiddify/hiddifycore/directories/directories_provider.dart';
+import 'package:hiddify/hiddifycore/notification/in_app_notification_controller.dart';
+import 'package:hiddify/hiddifycore/preferences/general_preferences.dart';
+import 'package:hiddify/hiddifycore/hiddify_core_service.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

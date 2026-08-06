@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:venturavpn/core/localization/translations.dart';
-import 'package:venturavpn/hiddifycore/generated/v2/hcore/hcore.pb.dart';
-import 'package:venturavpn/utils/platform_utils.dart';
+import 'package:hiddify/core/localization/translations.dart';
+import 'package:hiddify/hiddifycore/generated/v2/hcore/hcore.pb.dart';
+import 'package:hiddify/utils/platform_utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';

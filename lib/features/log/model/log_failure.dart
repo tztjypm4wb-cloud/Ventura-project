@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:venturavpn/core/localization/translations.dart';
-import 'package:venturavpn/core/model/failures.dart';
+import 'package:hiddify/core/localization/translations.dart';
+import 'package:hiddify/core/model/failures.dart';
 
 part 'log_failure.freezed.dart';
 
