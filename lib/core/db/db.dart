@@ -1,11 +1,11 @@
 import 'package:drift/drift.dart';
 import 'package:drift_flutter/drift_flutter.dart';
-import 'package:hiddify/core/db/converters/duration_converter.dart';
-import 'package:hiddify/core/db/db.steps.dart';
-import 'package:hiddify/core/directories/directories_provider.dart';
-import 'package:hiddify/features/per_app_proxy/model/per_app_proxy_mode.dart';
-import 'package:hiddify/features/profile/model/profile_entity.dart';
-import 'package:hiddify/utils/custom_loggers.dart';
+import 'package:VenturaVPN/core/db/converters/duration_converter.dart';
+import 'package:VenturaVPN/core/db/db.steps.dart';
+import 'package:VenturaVPN/core/directories/directories_provider.dart';
+import 'package:VenturaVPN/features/per_app_proxy/model/per_app_proxy_mode.dart';
+import 'package:VenturaVPN/features/profile/model/profile_entity.dart';
+import 'package:VenturaVPN/utils/custom_loggers.dart';
 
 part 'db.g.dart';
 
@@ -84,7 +84,7 @@ class Db extends _$Db with InfraLogger {
 @DataClassName('ProfileEntry')
 class ProfileEntries extends Table {
   TextColumn get id => text()();
-  TextColumn get type => textEnum<ProfileType>()();
+  TextColumn get type => text()();
   BoolColumn get active => boolean()();
   TextColumn get name => text().withLength(min: 1)();
   TextColumn get url => text().nullable()();
@@ -106,7 +106,7 @@ class ProfileEntries extends Table {
 
 @DataClassName('AppProxyEntry')
 class AppProxyEntries extends Table {
-  TextColumn get mode => textEnum<AppProxyMode>()();
+  TextColumn get mode => text()();
   TextColumn get pkgName => text()();
   IntColumn get flags => integer().withDefault(const Constant(0))();
 
