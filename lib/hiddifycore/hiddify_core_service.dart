@@ -4,10 +4,10 @@ import 'dart:math';
 
 import 'package:fpdart/fpdart.dart';
 import 'package:grpc/grpc.dart';
-import 'package:venturavpn/hiddifycore/directories/directories_provider.dart';
-import 'package:venturavpn/hiddifycore/model/directories.dart';
-import 'package:venturavpn/hiddifycore/notification/in_app_notification_controller.dart';
-import 'package:venturavpn/hiddifycore/preferences/general_preferences.dart';
+import 'package:venturavpn/core/directories/directories_provider.dart';
+import 'package:venturavpn/core/model/directories.dart';
+import 'package:venturavpn/core/notification/in_app_notification_controller.dart';
+import 'package:venturavpn/core/preferences/general_preferences.dart';
 import 'package:venturavpn/features/connection/model/connection_failure.dart';
 import 'package:venturavpn/features/settings/data/config_option_repository.dart';
 import 'package:venturavpn/hiddifycore/core_interface/core_interface.dart';
