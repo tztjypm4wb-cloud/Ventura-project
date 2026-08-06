@@ -1,10 +1,10 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/features/route_rules/notifier/rules_notifier.dart';
-import 'package:hiddify/hiddifycore/generated/v2/config/route_rule.pb.dart';
-import 'package:hiddify/utils/utils.dart';
+import 'package:venturavpn/core/localization/translations.dart';
+import 'package:venturavpn/features/route_rules/notifier/rules_notifier.dart';
+import 'package:venturavpn/hiddifycore/generated/v2/config/route_rule.pb.dart';
+import 'package:venturavpn/utils/utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:protobuf/protobuf.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';

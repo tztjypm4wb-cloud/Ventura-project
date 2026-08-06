@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/widget/adaptive_menu.dart';
-import 'package:hiddify/features/chain/model/chain_enum.dart';
-import 'package:hiddify/features/chain/overview/chain_mode_icon.dart';
-import 'package:hiddify/features/settings/data/config_option_repository.dart';
-import 'package:hiddify/singbox/model/singbox_config_enum.dart';
+import 'package:venturavpn/core/localization/translations.dart';
+import 'package:venturavpn/core/widget/adaptive_menu.dart';
+import 'package:venturavpn/features/chain/model/chain_enum.dart';
+import 'package:venturavpn/features/chain/overview/chain_mode_icon.dart';
+import 'package:venturavpn/features/settings/data/config_option_repository.dart';
+import 'package:venturavpn/singbox/model/singbox_config_enum.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class ChainModeMenu extends HookConsumerWidget {
