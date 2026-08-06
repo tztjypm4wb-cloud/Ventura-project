@@ -23,8 +23,7 @@ abstract class TrustedLinks {
   /// TODO(pm): test seed — Hiddify only. Complete later (e.g. MahsaNET, IRCF, …).
   static const List<String> entries = [
     'hiddify.com',
-    'github.com/hiddify',
-    't.me/hiddify',
+    
   ];
 
   static final Set<String> _normalizedEntries = entries.map(_normalize).whereType<String>().toSet();
