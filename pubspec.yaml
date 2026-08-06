@@ -130,7 +130,7 @@ dev_dependencies:
   json_serializable: ^6.7.1
   freezed: ^2.4.7
   riverpod_generator: ^2.4.3
-  drift_dev: ^2.21.0
+  drift_dev: any
   ffigen: ^19.1.0
   slang_build_runner: ^4.4.0
   flutter_gen_runner: ^5.4.0
