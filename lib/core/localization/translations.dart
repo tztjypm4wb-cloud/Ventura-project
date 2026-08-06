@@ -3,7 +3,7 @@ import 'package:venturavpn/gen/translations.g.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-export 'package:hiddify/gen/translations.g.dart';
+export 'package:venturavpn/gen/translations.g.dart';
 
 part 'translations.g.dart';
 
