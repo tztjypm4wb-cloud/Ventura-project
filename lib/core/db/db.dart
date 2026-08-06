@@ -84,7 +84,7 @@ class Db extends _$Db with InfraLogger {
 @DataClassName('ProfileEntry')
 class ProfileEntries extends Table {
   TextColumn get id => text()();
-  TextColumn get type => text().enumValues(ProfileType.values)())
+  TextColumn get type => textEnum<ProfileType>()();
   BoolColumn get active => boolean()();
   TextColumn get name => text().withLength(min: 1)();
   TextColumn get url => text().nullable()();
@@ -106,7 +106,7 @@ class ProfileEntries extends Table {
 
 @DataClassName('AppProxyEntry')
 class AppProxyEntries extends Table {
-  TextColumn get mode => text().enumValues(AppProxyMode.values)();
+  TextColumn get mode => textEnum<AppProxyMode>()();
   TextColumn get pkgName => text()();
   IntColumn get flags => integer().withDefault(const Constant(0))();
 
